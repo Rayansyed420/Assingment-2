@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    list-style: none;
+}
+.primary-color{
+    color: #FF900E;
+}
+.secondary-color{
+    color: #727272;
+}
+/* header style */
+.header{
+    background-color: rgb(241, 235, 222); 
+    padding: 0px 40px;
+}
+.head{
+    font-weight: 700;
+    font-size: 45px;
+}
+.list-h{
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    margin: 15px;
+}
+/* style of section 1 or banner */
+.banner-section{
+    text-align: center;
+    background-color: rgb(241, 235, 222);
+    padding-top: 110px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    padding: 10px;
+}
+.banner-pera{
+    padding-bottom:16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.banner-button{
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+}
+.banner-img{
+    padding-top: 50px;
+}
+/* style of section 2 */
+.images img{
+    width: 242px;
+    height: 242px;
+    border-radius: 8px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.section-2{
+    display: flex;
+    align-items: center;
+    padding: 85px 201px 130px;
+}
+.text{
+    padding-left: 56px;
+    font-weight: 500;
+    font-size: 45px;
+}
+.pera-1{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: left;
+    padding-bottom: 24px;
+}
+/* style of .section-3 */
+.section-3{
+    background: url(/images/architect.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+.vl {
+    border-left: 5px solid #FF900E;;
+    height: 106px;
+}
+.title-3{
+    display: flex;
+    width: 1440px;
+    height: 1059px;
+}
+.head-3{
+    font-weight: 700;
+    font-size: 55px;
+    text-align: left;
+    width: 468px;
+    height: 106px;
+    padding-left: 21px;
+}
+.pera-3{
+    padding-top: 24px;
+    text-align: left;
+    width: 586px;
+    height: 78px;
+}
+.i-list:hover{
+    transform: scale(.9);
+}
+.features{
+    width: 586px;
+    height: 744px;
+}
+.features h4{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.features p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.list-f{
+    width: 586px;
+    height: 171px;
+}
+.btn-feature{
+    display: flex;
+}
+.btn{
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    position: absolute;
+    width: 342px;
+    height: 200px;
+    left: 880px;
+    top: 2890px;
+    font-weight: 600;
+    padding: 42px 46px;
+}
+.big{
+    font-weight: 700;
+    font-size: 65px;
+}
+/* Fact styles */
+.fact-head{
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 24px;
+}
+.fact-pera{
+    padding-left: 24px;
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+    height: 52px;
+    color: #727272;
+}
+.icon-list{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.icon-list li{
+    text-align: center;
+    padding: 10px;
+}
+.i-list{
+    margin: 10px;
+    width: 50%;
+    border: 3px solid #FF900E;
+    padding: 5px;
+}
+/* sponcors style */
+.s-head{
+    text-align: center;
+    width: 542px;
+    height: 129px;
+}
+.s-title{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.s-pera{
+    padding-bottom: 50px;
+    color: #727272;    
+}
+.sponsor-pic{
+    display: flex;
+    justify-content: space-around;
+}
+.s-pic{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    width: 152.51px;
+    height: 50px;
+    padding-bottom: 20px;
+}
+/* Employee of month style */
+.e-head{
+    text-align: center;
+}
+.e-title{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.e-pera{
+    padding-bottom: 50px;
+    color: #727272;    
+}
+.em-pics{
+    display: flex;
+    justify-content: space-around;
+}
+.e-pic img{
+    height: 100px;
+    width: 100px;
+    padding-bottom: 5px;
+}
+.e-pic h3{
+    text-align: center;
+    padding-bottom: 50px;
+}
+/* footer style */
+.foot{
+    background-color: #FFF4E7;
+    width: 1440px;
+    height: 100px; 
+    text-align: center; 
+}
+/* Media Quaries */
+@media screen and (max-width:688px) {
+    .navigation{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .s-head{
+        text-align: justify;
+        width: 342px;
+        height: 229px;
+    }
+    .title{
+        text-align: left;
+    }
+    .banner-img{
+        width: 100%;
+        height: auto;
+    }
+    .section-2{
+        flex-direction: column;
+    }
+    .images img{
+        width: 142px;
+        height: 142px;
+        border-radius: 5px;
+    }
+    .text{
+        text-align: left;
+    }
+    .section-3{
+        padding-left: 10px;
+        background-image: none;
+        background-color: white;
+    }
+    .head-3{
+        font-weight: 700;
+        font-size: 45px;
+        text-align: left;
+        width: 360px;
+        height: 106px;
+        padding-left: 10px;
+    }
+    .pera-3{
+        padding-top: 24px;
+        text-align: left;
+        width: 386px;
+        height: 178px;
+    }
+    .sponsor-pic{
+        flex-direction: column;
+        padding-left: 5px;
+    }
+    .feature-title{
+        padding: 10px;
+    }
+    .features {
+        text-align: left;
+    }
+    .features p{
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+        width: 386px;
+        height: 171px;
+    }
+    .fact-head, .fact-pera{
+        text-align: left;
+        padding: 10px;
+    }
+    .btn-feature{
+        flex-direction: column;
+    }
+    .btn{
+        background-color: #FF900E;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        position: absolute;
+        width: 90px;
+        height: 50px;
+        left: 50px;
+        top: 3080px;
+        font-weight: 600;
+        padding: 10px;
+    }
+    .big{
+        font-size: 20px;
+    }
+    .icon-list{
+        flex-direction: column;
+    }
+    .e-head{
+        text-align: left;
+    }
+    .em-pics{
+        flex-direction: column;
+    }
+    .e-pic h3{
+        text-align: left;
+        padding-bottom: 5px;
+    }
+    .foot{
+        padding-top: 15px; ;
+        text-align: left;
+        height: 100px;
+        width: 100px;
+    }
+}
+.hide{
+    display: none;
+}
