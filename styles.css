@@ -94,7 +94,7 @@ nav li{
 }
 /* style of .section-3 */
 .section-3{
-    background: url(/images/architect.png);
+    background: url(./images/architect.png);
     background-position: right;
     background-repeat: no-repeat;
     padding-left: 30px;
